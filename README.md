@@ -7,7 +7,7 @@ https://ketonormal2.herokuapp.com/
 
 Tietokantasovellus, johon tallennetaan verikokeen tulokset ja se laskee kullekin arvolle uudet perusterveiden viitearvot tälle tietylle käyttäjäryhmälle.
 
--Nykyiset viite-arvot on määritelty koko väestön perusterveiden mukaan. Tämä sovellus kerää verikokeiden tuloksia ihmisiltä, jotka ovat vähähiilihydraattisella ruokavaliolla. Esimerkikisi kolesteroliarvot ovat tällaisilla ihmisillä usein korkeammat kuin vähärasvaista ruokavaliota noudattavilla. Haluan määritellä mitkä ovat viite-arvot tälläisellä ihmisryhmällä.
+-Nykyiset viite-arvot on määritelty koko väestön perusterveiden mukaan. Tämä sovellus kerää verikokeiden tuloksia ihmisiltä, jotka ovat vähähiilihydraattisella ruokavaliolla. Esimerkikisi kolesteroliarvot ovat tällaisilla ihmisillä usein korkeammat kuin vähärasvaista ruokavaliota noudattavilla. Haluan määritellä mitkä ovat viite-arvot tällaisellä ihmisryhmällä.
 
 -haluan tehdä sovelluksesta turvallisen ja sellaisen minkä voin oikeasti julkaista ja ylläpitää. Tällainen tieto varmasti kiinnostaa näitä ihmisiä. 
 
