@@ -1,5 +1,5 @@
 from flask import Flask
-from flask import redirect, render_template
+from flask import redirect, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 from os import getenv
 
@@ -14,3 +14,20 @@ def index():
     result = db.session.execute("SELECT COUNT(*) FROM visitors")
     counter = result.fetchone()[0]
     return render_template("index.html", counter=counter) 
+
+@app.route("/submitlabs")
+def submit():
+    return render_template("submitlabs.html")
+
+@app.route("/result", methods=["POST"])
+def result():
+    sex = request.form["sex"]
+    age = request.form["age"]
+    diet = request.form["diet"]
+    hours = request.form["hours"]
+    units = request.form["units"]
+    total = request.form["total"]
+    ldl = request.form["ldl"]
+    hdl = request.form["hdl"]
+    trigly = request.form["trigly"]
+    return render_template("result.html", sex = sex, age = age, diet = diet, hours = hours, units = units, total = total, ldl = ldl, Hdl = hdl, trigly = trigly)
